@@ -1,0 +1,189 @@
+{
+    "members": [
+        {
+            "fname": "christropher",
+            "lname": "robin",
+            "category": "frontend",
+            "year": "2018",
+            "email": "chris_gb@gmail.com",
+            "skills": [
+                "html / css",
+                "javascript",
+                "android",
+                "adobe illustrator",
+                "adobe xd"
+            ],
+            "about": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae nemo, sequi rem, reiciendis possimus impedit error debitis similique culpa quibusdam, ullam hic velit consequatur porro suscipit eaque eos. Aliquid, quasi."
+        },
+        {
+            "fname": "nicholas",
+            "lname": "robin",
+            "category": "mobile",
+            "year": "2018",
+            "email": "chris_gb@gmail.com",
+            "skills": [
+                "html / css",
+                "javascript",
+                "android",
+                "adobe illustrator",
+                "adobe xd"
+            ],
+            "about": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae nemo, sequi rem, reiciendis possimus impedit error debitis similique culpa quibusdam, ullam hic velit consequatur porro suscipit eaque eos. Aliquid, quasi."
+        },
+        {
+            "fname": "vishal",
+            "lname": "robin",
+            "category": "frontend",
+            "year": "2018",
+            "email": "vishal_rk@gmail.com",
+            "skills": [
+                "html / css",
+                "javascript",
+                "android",
+                "adobe illustrator",
+                "adobe xd"
+            ],
+            "about": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae nemo, sequi rem, reiciendis possimus impedit error debitis similique culpa quibusdam, ullam hic velit consequatur porro suscipit eaque eos. Aliquid, quasi."
+        },
+        {
+            "fname": "jannice",
+            "lname": "robin",
+            "category": "backend",
+            "year": "2018",
+            "email": "jannice_rx@gmail.com",
+            "skills": [
+                "html / css",
+                "javascript",
+                "php",
+                "python",
+                "mongodb",
+                "mysql"
+            ],
+            "about": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae nemo, sequi rem, reiciendis possimus impedit error debitis similique culpa quibusdam, ullam hic velit consequatur porro suscipit eaque eos. Aliquid, quasi."
+        },
+        {
+            "fname": "randall",
+            "lname": "robin",
+            "category": "graphics",
+            "year": "2018",
+            "email": "randall_cgx@gmail.com",
+            "skills": [
+                "photoshop",
+                "adobe illustrator",
+                "adobe animate",
+                "adobe xd",
+                "python"
+            ],
+            "about": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae nemo, sequi rem, reiciendis possimus impedit error debitis similique culpa quibusdam, ullam hic velit consequatur porro suscipit eaque eos. Aliquid, quasi."
+        },
+        {
+            "fname": "amanda",
+            "lname": "robin",
+            "category": "frontend",
+            "year": "2017",
+            "email": "amanda_gb@gmail.com",
+            "skills": [
+                "html / css",
+                "javascript",
+                "android",
+                "adobe illustrator",
+                "adobe xd"
+            ],
+            "about": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae nemo, sequi rem, reiciendis possimus impedit error debitis similique culpa quibusdam, ullam hic velit consequatur porro suscipit eaque eos. Aliquid, quasi."
+        },
+        {
+            "fname": "saurabh",
+            "lname": "robin",
+            "category": "backend",
+            "year": "2017",
+            "email": "saurabh_gb@gmail.com",
+            "skills": [
+                "html / css",
+                "javascript",
+                "php",
+                "python",
+                "mongodb",
+                "mysql"
+            ],
+            "about": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae nemo, sequi rem, reiciendis possimus impedit error debitis similique culpa quibusdam, ullam hic velit consequatur porro suscipit eaque eos. Aliquid, quasi."
+        },
+        {
+            "fname": "mukesh",
+            "lname": "robin",
+            "category": "backend",
+            "year": "2017",
+            "email": "mukesh_gb@gmail.com",
+            "skills": [
+                "html / css",
+                "javascript",
+                "php",
+                "python",
+                "mysql"
+            ],
+            "about": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae nemo, sequi rem, reiciendis possimus impedit error debitis similique culpa quibusdam, ullam hic velit consequatur porro suscipit eaque eos. Aliquid, quasi."
+        },
+        {
+            "fname": "marilyn",
+            "lname": "robin",
+            "category": "frontend",
+            "year": "2015",
+            "email": "mary_gb@gmail.com",
+            "skills": [
+                "html / css",
+                "javascript",
+                "android",
+                "adobe xd"
+            ],
+            "about": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae nemo, sequi rem, reiciendis possimus impedit error debitis similique culpa quibusdam, ullam hic velit consequatur porro suscipit eaque eos. Aliquid, quasi."
+        },
+        {
+            "fname": "robert",
+            "lname": "robin",
+            "category": "graphics",
+            "year": "2015",
+            "email": "robertin@gmail.com",
+            "skills": [
+                "photoshop",
+                "adobe illustrator",
+                "adobe animate",
+                "adobe xd",
+                "python"
+            ],
+            "about": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae nemo, sequi rem, reiciendis possimus impedit error debitis similique culpa quibusdam, ullam hic velit consequatur porro suscipit eaque eos. Aliquid, quasi."
+        },
+        {
+            "fname": "shawn",
+            "lname": "robin",
+            "category": "backend",
+            "year": "2015",
+            "email": "shawn_gb@gmail.com",
+            "skills": [
+                "html / css",
+                "javascript",
+                "php",
+                "python",
+                "mongodb",
+                "mysql",
+                "python",
+                "mongodb",
+                "mysql"
+            ],
+            "about": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae nemo, sequi rem, reiciendis possimus impedit error debitis similique culpa quibusdam, ullam hic velit consequatur porro suscipit eaque eos. Aliquid, quasi."
+        },
+        {
+            "fname": "katy",
+            "lname": "robin",
+            "category": "mobile",
+            "year": "2015",
+            "email": "chris_gb@gmail.com",
+            "skills": [
+                "html / css",
+                "javascript",
+                "android",
+                "adobe illustrator",
+                "adobe xd"
+            ],
+            "about": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae nemo, sequi rem, reiciendis possimus impedit error debitis similique culpa quibusdam, ullam hic velit consequatur porro suscipit eaque eos. Aliquid, quasi."
+        }
+    ]
+}
