@@ -1,0 +1,78 @@
+.CategoryTray{
+  flex:0 0 90px;
+  box-shadow: 0 -4px 30px rgba(0,0,0,0.2);
+  position: relative;
+  z-index: 300;
+  background-color:white;
+  max-width:1100px;
+  width:100%;
+}
+.CategoryTray_options{
+  width:100%;
+  height: 100%; 
+  max-width:500px;
+  margin:0px auto;
+  display: flex;
+}
+.CategoryTray_category{
+  flex:1;
+  opacity: 1;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color:white;
+  transition: all 0.3s ease-in-out;
+}
+.CategoryTray_image{
+  height:40px;
+  width:40px;
+  overflow:hidden;
+  box-sizing: content-box;
+  margin-bottom:4px;
+}
+.CategoryTray_image > svg{
+  width:100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+  margin:0 auto;
+  fill:#7966FF;
+}
+.CategoryTray_category.active > .CategoryTray_image>svg{
+  fill:white;
+}
+.CategoryTray_category.active > .CategoryTray_name{
+  color:white;
+}
+.CategoryTray .CategoryTray_image.category-backend{
+  width:38px;
+  height:38px;
+}
+.CategoryTray .CategoryTray_image.category-graphics{
+  width:38px;
+  height:38px;
+}
+.CategoryTray .CategoryTray_image.category-android{
+  width:38px;
+  height:38px;
+}
+.CategoryTray_name{
+  font-size:11px;
+  font-weight: 100;
+  color:#6B6868;
+}
+
+.CategoryTray_category.active{
+  background-image:linear-gradient(#9EB7FF,#7966FF);
+}
+.CategoryTray_category:hover{
+  background-color: rgb(220, 228, 253);
+}
+
+@media only screen and (max-width:380px){
+  .CategoryTray_image{
+    width:35px;
+    height:35px;
+  }
+}

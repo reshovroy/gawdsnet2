@@ -1,0 +1,91 @@
+@font-face{
+  font-family:AvenirRegular;
+  src:url('./AvenirNextLTPro-Regular.otf');
+}
+
+
+.CardTray{
+  height: 205px;
+  width:100%;
+  box-sizing: border-box;
+  margin-top:20px;
+  position: relative; 
+}
+.CardTray_container{
+  height:100%;
+  width:96%;
+  background-color:white;
+  margin:0 auto;
+  border-radius: 6px;
+  box-shadow: 0 1px 5px rgba(0,0,0,0.2);
+}
+.CardTray_data{
+  margin:0 auto;
+  width:96%;
+  height:40px;
+  border-bottom:1.5px solid #F1EEFC;
+  font-family: AvenirRegular;
+  position: relative;
+}
+.CardTray_data > *{
+  top:50%;
+  transform: translateY(-50%);
+}
+.CardTray_batch{
+  font-size:15px;
+  position: absolute;
+  left:10px;
+  color:#AEA7A7;
+}
+.CardTray_year{
+  font-size:15px;
+  position: absolute;
+  right:10px;
+  color:#514D4D;
+}
+
+.CardTray_profileBlock{
+  height:160px;
+  width:100%;
+  position: absolute;
+  top:40px;
+  overflow-x:scroll;
+  overflow-y:hidden;
+}
+
+
+.CardTray_ScrollTray{
+  height:100%;
+  width:max-content;
+  margin-left:20px;
+  display: flex;
+  align-items:flex-start;
+  justify-content: flex-start;
+}
+.CardTray_profileBlock::-webkit-scrollbar{
+  height:1px;
+}
+
+.profile_card_anim-enter{
+  opacity: 0;
+}
+.profile_card_anim-enter-active{
+  opacity: 1;
+  transition:all 200ms ease-in-out;
+}
+.profile_card_anim-exit-active{
+  opacity: 0;
+  transition:all 200ms ease-in-out;
+}
+
+@media only screen and (min-width:900px){
+  .CardTray_ScrollTray{
+    margin-left:40px;
+  }
+  .CardTray_profileBlock{
+    height:170px;
+  }
+  .CardTray{
+    height:220px;
+  }
+}

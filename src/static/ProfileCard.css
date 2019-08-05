@@ -1,0 +1,77 @@
+.ProfileCard{
+  margin-top: 4px;
+  height:152px;
+  width:105px !important;
+  border-radius: 5px;
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+  margin-right:12px;
+  overflow: hidden;
+  background-color: white;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+  cursor: pointer;
+}
+.ProfileCard_data{
+  flex:0 0 125px;
+  text-align: center;
+}
+.ProfileCard_category{
+  flex:1;
+  align-self: stretch;
+}
+.ProfileCard_imgBox{
+  width:80px;
+  height:80px;
+  margin-bottom:12px;
+  border-radius: 50px;
+  overflow:hidden;
+}
+.ProfileCard_img{
+  width:100%;
+  height:100%;
+  object-fit: cover;
+  display: block;
+  
+}
+.ProfileCard_name{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 100;
+  font-size:18px;
+  color:#5A5757;
+  text-transform: capitalize;
+  
+}
+.ProfileCard_category{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size:11px;
+  color:white;
+  font-weight: 100;
+  text-shadow: 0 1px 1px rgba(0,0,0,0.1);
+}
+.ProfileCard_category.category-backend{
+  background-image:linear-gradient(#82A3F1,#62DAF3);
+}
+.ProfileCard_category.category-frontend{
+  background-image:linear-gradient(#FBA980,#E6D787);
+}
+.ProfileCard_category.category-graphics{
+  background-image:linear-gradient(#A08AFC,#F5A7BC);
+}
+.ProfileCard_category.category-mobile{
+  background-image:linear-gradient(#78EEDA,#A7F390);
+}
+
+@media only screen and (min-width:900px){
+  .ProfileCard{
+    height:160px;
+    width:120px !important;
+    margin-right:20px;
+  }
+  .ProfileCard_data{
+    flex-basis:130px;
+  }
+}
